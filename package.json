@@ -58,7 +58,8 @@
       "target": {
         "target": "default",
         "arch": [
-          "x64"
+          "x64",
+          "arm64"
         ]
       }
     },
@@ -134,9 +135,10 @@
     "cpu-features": "^0.0.10",
     "cross-env": "~7.0.2",
     "css-loader": "~6.5.0",
+    "dmg-license": "^1.0.11",
     "electron-log": "~5.0.1",
     "electron-store": "~8.1.0",
-    "electron-updater": "~4.6.5",
+    "electron-updater": "^6.3.3",
     "electron-window-state": "~5.0.3",
     "encoding": "~0.1.13",
     "file-loader": "~6.2.0",
